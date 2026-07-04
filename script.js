@@ -136,12 +136,20 @@ if (yearEl) yearEl.textContent = new Date().getFullYear();
   // Smooth scroll for anchor links
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', (e) => {
-      const target = document.querySelector(anchor.getAttribute('href'));
+      const href = anchor.getAttribute('href');
+      if (href === '#' || href === '#hero') {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        return;
+      }
+      const target = document.querySelector(href);
       if (target) {
         e.preventDefault();
         const offset = navbar.offsetHeight;
         const top = target.getBoundingClientRect().top + window.scrollY - offset;
         window.scrollTo({ top, behavior: 'smooth' });
+        // Keep URL clean without hash
+        history.replaceState(null, null, ' ');
       }
     });
   });
