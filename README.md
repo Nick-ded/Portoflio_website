@@ -65,16 +65,24 @@ This isn't another template portfolio. Every line of code, every animation, ever
 
 ## 🎥 Preview
 
-> Add screenshots and GIFs here after deployment
+<div align="center">
 
-### Hero Section
-![Hero with Particles]()
+### When you open the portfolio for the first time
+![Mind Blown](https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif)
 
-### Projects Showcase
-![Project Cards with Custom Visuals]()
+### The loading animation
+![Loading](https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif)
 
-### Contact Form
-![Contact Section]()
+### Smooth scroll animations hitting different
+![Smooth](https://media.giphy.com/media/l0HlNQ03J5JxX6lva/giphy.gif)
+
+### My code review after writing this from scratch
+![Perfect](https://media.giphy.com/media/26gspvTRJXosDwi1a/giphy.gif)
+
+### When someone asks if I used a template
+![Nope](https://media.giphy.com/media/STfLOU6iRBRunMciZv/giphy.gif)
+
+</div>
 
 ---
 
@@ -189,10 +197,20 @@ Replace the Formspree endpoint in `index.html`:
 This portfolio was built with three core principles:
 
 1. **No Frameworks** - Prove mastery of fundamentals
-2. **Human Touch** - No generic AI templates, every detail is intentional
+2. **Human Touch** - No generic AI templates, every detail is intentional  
 3. **Performance First** - Fast, lightweight, works everywhere
 
-## 🤝 Contributing
+<div align="center">
+
+### The developer experience while building this
+
+![Coding](https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif)
+
+*3 AM, pure HTML/CSS/JS, no framework. Peak engineering.*
+
+</div>
+
+---## 🤝 Contributing
 
 While this is a personal portfolio, I'm open to suggestions! Feel free to:
 - Report bugs via [Issues](https://github.com/Nick-ded/Portoflio_website/issues)
