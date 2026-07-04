@@ -1,6 +1,6 @@
 <div align="center">
 
-# ✨ IM Portfolio
+# ✨ MY Portfolio
 
 ### Personal Portfolio Website of Paayush Sharma
 
